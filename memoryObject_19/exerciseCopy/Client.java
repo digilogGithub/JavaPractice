@@ -1,11 +1,11 @@
-package memoryObject_19.arrayCopy;
+package memoryObject_19.exerciseCopy;
 
 public class Client {
 
     public static void main(String[] args) {
         try {
             PersonInfo personInfo = new PersonInfo("James", 22, "HiMedia", "encoding");
-            PersonInfo pClone = (PersonInfo) personInfo.clone();
+            PersonInfo pClone = personInfo.clone();
             pClone.changeWork("decoding");
 
             personInfo.showPersonInfo();

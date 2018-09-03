@@ -1,4 +1,4 @@
-package memoryObject_19.arrayCopy;
+package memoryObject_19.exerciseCopy;
 
 public class Business implements Cloneable {
     private String company;
@@ -18,7 +18,7 @@ public class Business implements Cloneable {
         this.work = work;
     }
 
-    public Object clone() throws CloneNotSupportedException {
-        return super.clone();
+    public Business clone() throws CloneNotSupportedException {
+        return (Business) super.clone();
     }
 }

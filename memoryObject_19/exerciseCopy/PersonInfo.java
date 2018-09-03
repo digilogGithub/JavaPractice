@@ -1,6 +1,4 @@
-package memoryObject_19.arrayCopy;
-
-import memoryObject_19.stringCopy.Person;
+package memoryObject_19.exerciseCopy;
 
 public class PersonInfo implements Cloneable {
     private String name;
@@ -24,7 +22,7 @@ public class PersonInfo implements Cloneable {
         business.changeWork(work);
     }
 
-    public Object clone() throws CloneNotSupportedException {
+    public PersonInfo clone() throws CloneNotSupportedException {
         PersonInfo clone = (PersonInfo) super.clone();
         clone.business = (Business) business.clone();
         return clone;
