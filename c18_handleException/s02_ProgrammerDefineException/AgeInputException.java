@@ -1,4 +1,4 @@
-package c18_handleException.c2;
+package c18_handleException.s02_ProgrammerDefineException;
 
 public class AgeInputException extends Exception {
     public AgeInputException() {
