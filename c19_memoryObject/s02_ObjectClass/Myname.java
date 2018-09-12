@@ -1,4 +1,4 @@
-package c19_memoryObject.finalize;
+package c19_memoryObject.s02_ObjectClass;
 
 public class Myname {
     String objName;

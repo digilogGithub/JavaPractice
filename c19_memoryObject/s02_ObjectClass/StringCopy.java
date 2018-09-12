@@ -1,8 +1,7 @@
-package c19_memoryObject.stringCopy;
+package c19_memoryObject.s02_ObjectClass;
 
-public class Client {
-    public static void main(String[] args) {
-
+class StringCopy {
+    public void showDemo() {
         try {
             Person p1 = new Person("이승원", 22);
             Person p2 = (Person) p1.clone();

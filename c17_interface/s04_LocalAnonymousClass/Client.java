@@ -1,4 +1,4 @@
-package c17_interface.LocalAnonymousClass;
+package c17_interface.s04_LocalAnonymousClass;
 
 public class Client {
     public static void main(String[] args) {

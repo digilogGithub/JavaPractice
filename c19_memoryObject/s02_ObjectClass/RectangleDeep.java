@@ -1,9 +1,11 @@
-package c19_memoryObject.deepCopy;
+package c19_memoryObject.s02_ObjectClass;
 
-public class Rectangle implements Cloneable {
+
+public class RectangleDeep implements Cloneable {
     Point upperLeft, lowerRight;
 
-    public Rectangle(int x1, int y1, int x2, int y2) {
+
+    public RectangleDeep(int x1, int y1, int x2, int y2) {
         upperLeft = new Point(x1, y1);
         lowerRight = new Point(x2, y2);
     }
@@ -24,7 +26,7 @@ public class Rectangle implements Cloneable {
     }
 
     public Object clone() throws CloneNotSupportedException {
-        Rectangle clone = (Rectangle) super.clone();
+        RectangleDeep clone = (RectangleDeep) super.clone();
         clone.upperLeft = (Point) upperLeft.clone();
         clone.lowerRight = (Point) lowerRight.clone();
         return clone;

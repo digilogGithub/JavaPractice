@@ -1,4 +1,4 @@
-package c19_memoryObject.deepCopy;
+package c19_memoryObject.s02_ObjectClass;
 
 public class Point implements Cloneable {
     private int xPos;

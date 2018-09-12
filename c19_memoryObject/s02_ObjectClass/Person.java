@@ -1,4 +1,4 @@
-package c19_memoryObject.stringCopy;
+package c19_memoryObject.s02_ObjectClass;
 
 public class Person implements Cloneable {
     private String name;

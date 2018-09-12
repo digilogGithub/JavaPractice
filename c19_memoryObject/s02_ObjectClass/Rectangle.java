@@ -1,4 +1,4 @@
-package c19_memoryObject.shallowCopy;
+package c19_memoryObject.s02_ObjectClass;
 
 public class Rectangle implements Cloneable {
     Point upperLeft, lowerRight;

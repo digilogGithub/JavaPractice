@@ -1,9 +1,9 @@
-package c18_handleException.c1_1;
+package c18_handleException.s01_ExceptionHandleUself;
 
 import java.util.Scanner;
 
-class ExceptionHandleUself {
-    public static void main(String[] args) {
+class ExceptionHandleUself1 {
+    public void showDemo() {
         Scanner kb = new Scanner(System.in);
         int[] arr = new int[100];
 

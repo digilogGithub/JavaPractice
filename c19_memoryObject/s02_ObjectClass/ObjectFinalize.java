@@ -1,7 +1,7 @@
-package c19_memoryObject.finalize;
+package c19_memoryObject.s02_ObjectClass;
 
-public class Client {
-    public static void main(String[] args) {
+class ObjectFinalize {
+    public void showDamo() {
         Myname obj1 = new Myname("Instance1");
         Myname obj2 = new Myname("Instance2");
         obj1 = null;
@@ -11,4 +11,5 @@ public class Client {
         System.gc();
         System.runFinalization();
     }
+
 }

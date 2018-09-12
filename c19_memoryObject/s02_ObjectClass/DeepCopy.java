@@ -1,12 +1,12 @@
-package c19_memoryObject.deepCopy;
+package c19_memoryObject.s02_ObjectClass;
 
-public class Client {
-    public static void main(String[] args) {
-        Rectangle org = new Rectangle(1, 1, 9, 9);
-        Rectangle cpy;
+class DeepCopy {
+    public void showDemo() {
+        RectangleDeep org = new RectangleDeep(1, 1, 9, 9);
+        RectangleDeep cpy;
 
         try {
-            cpy = (Rectangle) org.clone();
+            cpy = (RectangleDeep) org.clone();
             org.changePos(2, 2, 7, 7);
             System.out.println("ORG");
             org.showPosition();

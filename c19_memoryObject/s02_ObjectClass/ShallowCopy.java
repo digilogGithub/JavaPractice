@@ -1,7 +1,7 @@
-package c19_memoryObject.shallowCopy;
+package c19_memoryObject.s02_ObjectClass;
 
-public class Client {
-    public static void main(String[] args) {
+class ShallowCopy {
+    public void showDemo() {
         Rectangle org = new Rectangle(1, 1, 9, 9);
         Rectangle cpy;
 
