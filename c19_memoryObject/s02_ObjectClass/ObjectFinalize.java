@@ -11,5 +11,4 @@ class ObjectFinalize {
         System.gc();
         System.runFinalization();
     }
-
 }

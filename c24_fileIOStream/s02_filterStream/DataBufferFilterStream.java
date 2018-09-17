@@ -1,9 +1,9 @@
-package c24_fileIOStream.dataBufferFilterStream_02;
+package c24_fileIOStream.s02_filterStream;
 
 import java.io.*;
 
-class Client {
-    public static void main(String[] args) throws IOException {
+class DataBufferFilterStream {
+    public void showDemo() throws IOException {
         OutputStream out = new FileOutputStream("src\\c24_fileIOStream\\ioTestFile\\data.bin");
         BufferedOutputStream bufOut = new BufferedOutputStream(out);
         DataOutputStream dataFilterOut = new DataOutputStream(bufOut);
@@ -28,6 +28,5 @@ class Client {
         File file = new File("src\\c24_fileIOStream\\ioTestFile\\data.bin");
         if (file.exists())
             file.delete();
-
     }
 }

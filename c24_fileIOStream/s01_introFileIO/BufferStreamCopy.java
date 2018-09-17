@@ -1,14 +1,17 @@
-package c24_fileIOStream.bufferStreamCopy_02;
+package c24_fileIOStream.s01_introFileIO;
 
 import java.io.*;
 
-class Client {
-    public static void main(String[] args) throws IOException {
-        InputStream input = new FileInputStream("src\\c24_fileIOStream\\ioTestFile\\dog.jpg");
+class BufferStreamCopy {
+    public void showDemo() throws IOException {
+/*        InputStream input = new FileInputStream("src\\c24_fileIOStream\\ioTestFile\\dog.jpg");
         OutputStream out = new FileOutputStream("src\\c24_fileIOStream\\ioTestFile\\dogClone.jpg");
 
         BufferedInputStream bufIn = new BufferedInputStream(input);
-        BufferedOutputStream bufOut = new BufferedOutputStream(out);
+        BufferedOutputStream bufOut = new BufferedOutputStream(out);*/
+
+        InputStream bufIn = new BufferedInputStream(new FileInputStream("src\\c24_fileIOStream\\ioTestFile\\dog.jpg"));
+        OutputStream bufOut = new BufferedOutputStream(new FileOutputStream("src\\c24_fileIOStream\\ioTestFile\\dogClone.jpg"));
 
         int bData;
         int copyByteSize = 0;
@@ -25,6 +28,6 @@ class Client {
         bufOut.close();
 
         System.out.println("Data size : " + copyByteSize);
-
     }
+
 }

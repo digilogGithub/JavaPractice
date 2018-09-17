@@ -1,9 +1,9 @@
-package c24_fileIOStream.bufferFileCopy_01;
+package c24_fileIOStream.s01_introFileIO;
 
 import java.io.*;
 
-public class Client {
-    public static void main(String[] args) throws IOException {
+class BufferFileCopy {
+    public void showDemo() throws IOException {
         InputStream in = new FileInputStream("src\\c24_fileIOStream\\ioTestFile\\dog.jpg");
         OutputStream out = new FileOutputStream("src\\c24_fileIOStream\\ioTestFile\\dogClone.jpg");
 

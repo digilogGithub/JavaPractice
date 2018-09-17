@@ -48,10 +48,8 @@ class Client {
         System.out.println("IntroWildCard");
         FruitBox<Fruit> box1 = new FruitBox<>();
         box1.store(new Fruit());
-
         FruitBox<Apple> box2 = new FruitBox<>();
         box2.store(new Apple());
-
         IntroWildCard introWildCard = new IntroWildCard();
         System.out.println("Fruit");
         introWildCard.openAndShowFruitBox(box1);

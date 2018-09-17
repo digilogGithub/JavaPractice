@@ -1,11 +1,11 @@
-package c24_fileIOStream.listFileDirectoryInfo_05;
+package c24_fileIOStream.s05_RandomAccessAndFileClass;
 
 import java.io.File;
 import java.util.Arrays;
 import java.util.List;
 
-class Client {
-    public static void main(String[] args) {
+class ListFileDirectoryInfo {
+    public void showDemo() {
 
         File myDir = new File("src" + File.separator + "c24_fileIOStream");
         List<File> fileList = Arrays.asList(myDir.listFiles());

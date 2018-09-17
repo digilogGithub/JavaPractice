@@ -1,10 +1,11 @@
-package c24_fileIOStream.stringWriter_03;
+package c24_fileIOStream.s03_ChracterStream;
 
-import java.io.*;
+import java.io.BufferedWriter;
+import java.io.FileWriter;
+import java.io.IOException;
 
-class Client {
-    public static void main(String[] args) throws IOException {
-
+class StringWriter {
+    public void showDemo() throws IOException {
         BufferedWriter out = new BufferedWriter(new FileWriter("src\\c24_fileIOStream\\ioTestFile\\string.txt"));
         out.write("연합뉴스가 지난달 31일 인사위원회를 열어 전임 경영진 때 보도 책임자 4명에게 정직 6개월 등 중징계를 내렸다.");
         out.newLine();
@@ -21,6 +22,3 @@ class Client {
 
     }
 }
-
-
-

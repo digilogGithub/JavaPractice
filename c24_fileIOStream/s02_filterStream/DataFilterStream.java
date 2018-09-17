@@ -1,9 +1,9 @@
-package c24_fileIOStream.dataFilterStream_02;
+package c24_fileIOStream.s02_filterStream;
 
 import java.io.*;
 
-class Client {
-    public static void main(String[] args) throws IOException {
+class DataFilterStream {
+    public void showDemo() throws IOException {
         OutputStream out = new FileOutputStream("src\\c24_fileIOStream\\ioTestFile\\data.bin");
         DataOutputStream filterOut = new DataOutputStream(out);
         filterOut.writeInt(275);

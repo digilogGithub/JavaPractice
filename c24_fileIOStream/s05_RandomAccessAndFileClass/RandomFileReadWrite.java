@@ -1,11 +1,10 @@
-package c24_fileIOStream.randomFileAccess_05;
+package c24_fileIOStream.s05_RandomAccessAndFileClass;
 
 import java.io.IOException;
 import java.io.RandomAccessFile;
 
-class Client {
-    public static void main(String[] args) throws IOException {
-
+class RandomFileReadWrite {
+    public void showDemo() throws IOException {
         RandomAccessFile randomAccessFile = new RandomAccessFile("src\\c24_fileIOStream\\ioTestFile\\randomFile.txt", "rw");
         System.out.println("write...........");
         System.out.printf("현재 입출력 위치 : %d 바이트 \n", randomAccessFile.getFilePointer());
@@ -29,5 +28,6 @@ class Client {
         System.out.println(randomAccessFile.readDouble());
         System.out.printf("현재 입출력 위치 : %d 바이트 \n", randomAccessFile.getFilePointer());
         randomAccessFile.close();
+
     }
 }

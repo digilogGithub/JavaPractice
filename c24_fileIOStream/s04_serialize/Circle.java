@@ -1,4 +1,4 @@
-package c24_fileIOStream.serializableInstMember_04;
+package c24_fileIOStream.s04_serialize;
 
 import java.io.Serializable;
 
