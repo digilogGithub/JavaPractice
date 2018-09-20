@@ -15,6 +15,5 @@ class StringReader {
             System.out.println(strIn);
         }
         in.close();
-
     }
 }
