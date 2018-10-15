@@ -1,7 +1,7 @@
-package c17_interface.interface17_2;
+package c17_interface.s02_interface;
 
-import c17_interface.interface17_2.personbridge.PersonalNumberStorage;
-import c17_interface.interface17_2.personstorage.PersonalNumberStorageImpl;
+import c17_interface.s02_interface.personbridge.PersonalNumberStorage;
+import c17_interface.s02_interface.personstorage.PersonalNumberStorageImpl;
 
 public class Client {
     public static void main(String[] args) {

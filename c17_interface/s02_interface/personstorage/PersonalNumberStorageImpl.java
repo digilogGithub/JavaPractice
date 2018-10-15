@@ -1,6 +1,6 @@
-package c17_interface.interface17_2.personstorage;
+package c17_interface.s02_interface.personstorage;
 
-import c17_interface.interface17_2.personbridge.PersonalNumberStorage;
+import c17_interface.s02_interface.personbridge.PersonalNumberStorage;
 
 import java.util.ArrayList;
 import java.util.List;

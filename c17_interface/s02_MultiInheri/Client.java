@@ -1,4 +1,4 @@
-package c17_interface.MultiInheri17_2;
+package c17_interface.s02_MultiInheri;
 
 public class Client {
     public static void main(String[] args) {

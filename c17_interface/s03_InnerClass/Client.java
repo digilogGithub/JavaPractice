@@ -1,12 +1,12 @@
-package c17_interface.InnerClass17_3;
+package c17_interface.s03_InnerClass;
 
 public class Client {
     public static void main(String[] args) {
-        NestedClassOne nsOne = new NestedClassOne();
-        NestedClassTwo nsTwo = new NestedClassTwo();
+        OuterClassOne nsOne = new OuterClassOne();
+        OuterClassTwo nsTwo = new OuterClassTwo();
 
         System.out.println("Static");
-        NestedClassOne.InnerNestedClassOne diOne = new NestedClassOne.InnerNestedClassOne();
+        OuterClassOne.NestedClassOne diOne = new OuterClassOne.NestedClassOne();
         diOne.simpleMethod();
 
         System.out.println("----------------");

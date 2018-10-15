@@ -1,4 +1,4 @@
-package c17_interface.markinterface17_2;
+package c17_interface.s02_markinterface;
 
 public class Client {
     public static void main(String[] args) {

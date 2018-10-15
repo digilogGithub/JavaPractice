@@ -1,4 +1,4 @@
-package c17_interface.MultiInheri17_2;
+package c17_interface.s02_MultiInheri;
 
 public class IPTV extends TV implements Computer {
     ComputerImpl computerImpl = new ComputerImpl();

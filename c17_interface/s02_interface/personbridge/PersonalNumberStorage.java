@@ -1,4 +1,4 @@
-package c17_interface.interface17_2.personbridge;
+package c17_interface.s02_interface.personbridge;
 
 public interface PersonalNumberStorage {
     void addPersonalInfo(String name, String perNum);

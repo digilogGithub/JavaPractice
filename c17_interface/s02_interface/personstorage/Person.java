@@ -1,4 +1,4 @@
-package c17_interface.interface17_2.personstorage;
+package c17_interface.s02_interface.personstorage;
 
 public class Person {
     String name;

@@ -20,6 +20,7 @@ public class OuterClass {
 
     public Readable createAnonymousClassInst(int instID) {
         return new Readable() {
+            @Override
             public void read() {
                 System.out.println("Outer Class name :" + name);
                 System.out.println("Local(Anonymous) instance ID : " + instID);

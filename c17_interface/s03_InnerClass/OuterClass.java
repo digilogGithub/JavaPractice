@@ -1,4 +1,4 @@
-package c17_interface.InnerClass17_3;
+package c17_interface.s03_InnerClass;
 
 public class OuterClass {
     String name;
