@@ -1,4 +1,4 @@
-package toppan;
+package FileHandleSample;
 
 import java.io.IOException;
 
